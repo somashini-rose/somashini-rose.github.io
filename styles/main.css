@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  padding: 15px;
+  background-color: #d5dae0;
+  }
+
+  /* Banner image */
+  .background-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (outdoor 2.jpg). This will make the text easier to read */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url(../images/Milford\ Sounds.JPG);
+    
+      
+    /* Banner height */
+    height: 70%;
+    
+    /* Banner Image scale  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }   
+
+/* Header */
+  .hero-text {
+    text-align: center;
+    vertical-align: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d5dae0;
+  }
+
+  .hero-text h1 {
+  font-family: 'Alice',serif;
+  font-size: 60px;
+  }
+
+  .hero-text h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  font-weight: 300;
+  }
+
+/* Navigation Bar Style */
+  .navbar {
+    overflow: hidden;
+    background-color:#7f735a; 
+    opacity: 0.9;  
+    }
+
+  /* Navigation Bar Links */
+  .navbar a {
+    float: left; 
+    display: block; 
+    color: white;
+    font-size: 20px; 
+    text-align: center; 
+    padding: 20px 20px; 
+    text-decoration: none; 
+  }
+    /* Navigation Hover*/
+  .navbar a:hover {
+    background-color: #d5dae0;
+    color: #2c2e2b;
+    cursor: pointer;
+  }
+
+  /* About Section - Main Page*/
+  .about {
+    text-align: center, justify;
+    font-size: 20px;
+    color: #2c2e2b ;
+    padding-left: 20px;
+  }
+/* Footer */
+  footer {
+    text-align: end, left;
+    color: #2c2e2b;
+    font-size: 10px;
+    font-family: 'Alice',serif;
+    padding-left: 20px;
+  }
