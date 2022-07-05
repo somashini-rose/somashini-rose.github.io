@@ -81,3 +81,17 @@ body, html {
     font-family: 'Alice',serif;
     padding-left: 20px;
   }
+
+  /*Media Query - Mobile*/
+
+  /*Media Query - Tablet*/
+ @media screen and (max-width: 768px) {
+  .navbar {width: 691px;}
+  .about {text-align: center;}
+  .background-image {align-items: center;}
+  .hero-text {text-align: center;}    
+}
+
+ /*Media Query - Desktop*/
+ @media screen and (min-width: 1201px) {
+}
