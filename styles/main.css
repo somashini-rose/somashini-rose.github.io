@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body, html {
   height: 100%;
   padding: 15px;
@@ -114,13 +118,14 @@ body, html {
   }
 /* Footer */
   footer {
+    background-color: #7f735a;
+    color: #d5dae0;
+    padding: 14px 16px;
     text-align: end, left;
-    color: #2c2e2b;
     font-size: 10px;
     font-family: 'Alice',serif;
     padding-left: 20px;
-  }
-
+}
   /*Media Query - Mobile*/
 
   /*Media Query - Tablet*/
@@ -134,3 +139,4 @@ body, html {
  /*Media Query - Desktop*/
  @media screen and (min-width: 1201px) {
 }
+
