@@ -127,6 +127,9 @@ body, html {
     padding-left: 20px;
 }
   /*Media Query - Mobile*/
+  @media screen and (max-width: 320px) {
+    
+  }
 
   /*Media Query - Tablet*/
  @media screen and (max-width: 768px) {
