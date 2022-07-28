@@ -133,10 +133,10 @@ body, html {
 
   /*Media Query - Tablet*/
  @media screen and (max-width: 768px) {
-  .navbar {width: 691px;}
+  /* .navbar {width: 691px;}
   .about {text-align: center;}
   .background-image {align-items: center;}
-  .hero-text {text-align: center;}    
+  .hero-text {text-align: center;}     */
 }
 
  /*Media Query - Desktop*/
